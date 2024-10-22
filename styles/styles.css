@@ -231,6 +231,7 @@
 }
 .bmi-cal-parent{
     margin-top: 100px;
+    
     display: flex;
     width: 1910px;
     height: 487px;
@@ -248,9 +249,40 @@
     border: none;
 }
 .inpt-long{
-    width: 577px;
+    width: 582px;
     height: 48px;
     border-radius: 5px;
     background-color:rgba(255, 255, 255, 0.1) ;
     border: none;
+    margin-left: 5px;
+
+}
+.bmi-cal-title{
+    font-size: 1.25rem;
+}
+.bmi-input{
+    margin-top: 50px;
+}
+/* team section */
+.team-text{
+    width: 671px;
+    height: 120px;
+    justify-content: center;
+    text-align: center;
+    margin-left: 550px;
+    margin-bottom: 100px;
+}
+.ti-meet{
+    font-size: 3rem;
+}
+.team-container{
+    display: block;
+}
+.meet-img-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.img-1-trainer{
+    width: 326px;
+    height: 272px;
 }
