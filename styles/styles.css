@@ -202,6 +202,9 @@
     padding: 10px 50px;
     align-items: center;
 }
+.display-none{
+    display: none;
+}
 /* calculator bmi */
 .bmi-cal-container{
     width: 671px;
@@ -210,4 +213,44 @@
 }
 .bmi-cal-title{
     font-size: 3rem;
+}
+.cal-table{
+    table{
+        border-collapse: collapse;
+    }
+    td{
+        border: 1px solid rgba(255, 255, 255, 0.5);
+        padding: 5px 10px;
+        color: rgba(255, 255, 255, 0.5);
+    }
+    thead{
+        font-weight: 600;
+        font-size: 1rem;
+        color: white;
+    }
+}
+.bmi-cal-parent{
+    margin-top: 100px;
+    display: flex;
+    width: 1910px;
+    height: 487px;
+    background-color:rgb(34, 34, 34) ;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+.input-bmi{
+    margin: 5px;
+    width: 282px;
+    height: 48px;
+    border-radius: 5px;
+    background-color:rgba(255, 255, 255, 0.1) ;
+    border: none;
+}
+.inpt-long{
+    width: 577px;
+    height: 48px;
+    border-radius: 5px;
+    background-color:rgba(255, 255, 255, 0.1) ;
+    border: none;
 }
