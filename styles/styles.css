@@ -305,3 +305,35 @@
 }
 
 /* footer section start here */
+.footer-container{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 80px;
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 1810px;
+    height: 480px;
+}
+
+.hr{
+    width: 1050px;
+    background-color: rgba(255, 255, 255, 0.1);
+    
+
+}
+.foot-p{
+   display:block;
+    justify-content: center;
+    text-align: center;
+   
+    margin-top: 0px;
+    max-block-size: 200PX;
+
+}
+.last-item{
+    background-color: rgba(255, 255, 255, 0.1);
+    height: 50PX;
+}
