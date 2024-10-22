@@ -1,0 +1,213 @@
+/* font style section*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.primary-font {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+}
+
+/* shared style section here */
+/* button styles */
+.home-btn {
+
+    color: rgb(255, 255, 255);
+    background-color: rgb(230, 83, 60);
+    border-radius: 15px;
+    padding: 5px;
+
+}
+
+.title-text{
+    color: rgb(255, 255, 255);
+}
+.parapgraph-text{
+    color: rgba(255, 255, 255, 0.5);
+}
+.black-bg{
+    margin-top: 0px;
+    width: 1910px;
+    height: 660px;
+    background-color:black;
+}
+
+
+
+/* header section css styles here */
+.header-bg{
+    width: 1910px;
+    height: 660px;
+    background-color:black;
+
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1060px;
+    margin: 0px auto;
+    padding-top: 20px;
+}
+
+.anchor-container {
+    
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    align-items: center;
+    color: white;
+
+}
+
+.anchor-container {
+    justify-content: space-between;
+}
+
+.fit {
+    color: rgb(230, 83, 60);
+    font-weight:800;
+    font-size: 36px;
+}
+
+/* banner section */
+.banner-img{
+    width: 349px;
+    height: 580px;
+}
+.banner-parent{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-left: 450px;
+}
+.text-container{
+    width: 600px;
+    height: 440px;
+}
+.banner-title{
+    font-size: 5rem;
+    font-weight: 700;
+}
+.join-btn{
+    width: 224px;
+    height: 54px;
+    background-color:rgb(230, 83, 60) ;
+    border-radius: 30px;
+    color:rgb(255, 255, 255) ;
+    border: white;
+}
+
+.download-btn{
+    width: 224px;
+    height: 54px;
+    border-radius: 30px;
+    background-color: black;
+    color:rgb(255, 255, 255) ;
+    border: 1px solid white;
+}
+.card-1{
+    color:rgb(255, 255, 255);
+    background-color:rgba(255, 255, 255, 0.1);
+    width: 193px;
+    height: 98px;
+    margin-top: -500px;
+    margin-left: 230px;
+    padding-left:20px;
+
+}
+.card-2{
+    color:rgb(255, 255, 255);
+    background-color:rgba(255, 255, 255, 0.1);
+    width: 193px;
+    height: 98px;
+    margin-top: 250px;
+    margin-left: -50px;
+    padding-left:20px;
+   
+}
+
+
+/* habit section */
+
+.habit-texts{
+    width: 671px;
+    height: 120px;
+    color: white;
+    background-color: black;
+    display: block;
+    margin-left: 170px;
+    
+    text-align: center;
+}
+.habit-title{
+    font-size: 2.5rem;
+}
+.change-habit-section{
+    margin-top: 0px;
+    width: 1910px;
+    height: 660px;
+    background-color:black;
+}
+.habit-container{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    justify-content: center;
+    width: 1040px;
+    height: 452px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 450px;
+
+
+}
+.habit-img-container{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.img-card{
+    width: 231px;
+    height: 274px;
+    text-align: center;
+
+}
+.img-b{
+    border-radius: 100px;
+}
+
+/* run section */
+
+.run-img{
+    width: 366px;
+    height: 312px;
+    border-radius: 30px;
+    margin-left: 70px;
+    
+}
+.run-texts{
+    width: 443px;
+    height: 290px;
+}
+.run-title{
+    font-size: 2.5rem;
+}
+.run-parent{
+    margin-left: 390px;
+    width: 1060px;
+    height: 371px;
+    background-color:rgb(34, 34, 34); 
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+    padding: 10px 50px;
+    align-items: center;
+}
+/* calculator bmi */
+.bmi-cal-container{
+    width: 671px;
+    height: 120px;
+    margin-left: 650px;
+}
+.bmi-cal-title{
+    font-size: 3rem;
+}
