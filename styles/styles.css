@@ -332,34 +332,4 @@
 /* responsive media query */
 
 @media screen and (max-width:576px) {
-    .meet-img-container{
-        grid-template-columns: repeat(1, 1fr);
-    }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    .footer-links-container{
-        grid-template-columns: repeat(1, 1fr);
-        
-    }
-    
 }
